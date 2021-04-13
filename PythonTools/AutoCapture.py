@@ -42,7 +42,6 @@ def run_Capture_Screenshot_Virtual_Cameras(deltatime):
         
         if actor_type == camera_type:
             unreal.log_warning("Camera Detected --> " + actor_name)
-            #print("Camera Detected --> " + actor_name)
             # Get actor rotation
             rotation = actor.get_actor_eyes_view_point()[1]
             # Get actor position
